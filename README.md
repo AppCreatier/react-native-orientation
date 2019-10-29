@@ -1,3 +1,16 @@
+## Why Fork
+
+Fixes the following issues when building React Native 0.60 or later.
+
+```
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: The specified Android SDK Build Tools version (23.0.1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.4.2.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '23.0.1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+```
+
+
 ## React Native Orientation
 [![npm version](https://badge.fury.io/js/react-native-orientation.svg)](https://badge.fury.io/js/react-native-orientation)
 
