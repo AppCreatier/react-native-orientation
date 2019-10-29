@@ -1,3 +1,8 @@
+# React Native Orientation
+[![npm version](https://badge.fury.io/js/react-native-orientation.svg)](https://badge.fury.io/js/react-native-orientation)
+
+Listen to device orientation changes in React Native applications and programmatically set preferred orientation on a per screen basis. Works on both Android and iOS.
+
 ## Why Fork
 
 Fixes the following issues when building React Native 0.60 or later.
@@ -9,12 +14,6 @@ WARNING: The specified Android SDK Build Tools version (23.0.1) is ignored, as i
 Android SDK Build Tools 28.0.3 will be used.
 To suppress this warning, remove "buildToolsVersion '23.0.1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
 ```
-
-
-## React Native Orientation
-[![npm version](https://badge.fury.io/js/react-native-orientation.svg)](https://badge.fury.io/js/react-native-orientation)
-
-Listen to device orientation changes in React Native applications and programmatically set preferred orientation on a per screen basis. Works on both Android and iOS.
 
 ## Installing
 
